@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio Online</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Quicksand', sans-serif;
+        }
+        .center{
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2%;
+            display: flex;
+            /*justify-content:space-between;*/
+            flex-wrap: wrap;
+        }
+        header{
+            background-color: white;
+            padding: 20px 0;
+           /* border-bottom: 1px solid rgb(200,200,200);*/
+        }
+        .logo{
+            color:rgb(18, 102, 228);
+        }
+        .logo h2{
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .menu{
+            width: 80%;
+            text-align: right;
+        }
+        .menu a{
+            color:rgb(18, 102, 228);
+            font-size: 14px;
+            text-decoration: none;
+            margin-right: 20px;
+            transition: 0.5s;
+        }
+        .menu a:hover{
+            color:rgb(12, 75, 168);
+        }
+        .menu .btn-menu{
+            background-color:rgb(18, 102, 228) ;
+            display: inline-block;
+            padding: 8px 16px;
+            color: white;
+            border-radius: 50px;
+        }
+        .menu .btn-menu:hover{
+            background-color: rgb(12, 75, 168);
+            color: white;
+        }
+
+        /*
+        Section main
+        */
+        section.main{
+            background-color:#f7f7f7;
+            padding: 70px 0;
+            /*background-position: center;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:fixed;*/
+        }
+        .main__cta{
+            width: 100%;
+            margin: 80px 0;
+            text-align: center;
+        }
+        .main__cta h2{
+            width: 100%;
+            color:rgb(18, 102, 228);
+            font-size: 40px;
+        }
+        .main__cta p{
+            color:gray;
+            font-size: 19px;
+            margin: 10px 0;
+        }
+        .main__cta button{
+            background-color:rgb(18, 102, 228) ;
+            display: inline-block;
+            padding: 8px 16px;
+            color: white;
+            border-radius: 50px;
+            border: 0;
+            font-size: 21px;
+            cursor: pointer;
+        }
+        .diferenciais{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .diferenciais-single{
+            background-color: white;
+            width: 23%;
+            margin-right: 2%;
+            padding: 50px 20px;
+            border-radius: 10px;
+        }
+        .diferenciais-single i{
+            color:rgb(18, 102, 228);
+            font-size: 23px;
+        }
+        .diferenciais-single h2{
+            color:rgb(18, 102, 228);
+            margin: 10px 0;
+            font-size: 17px;
+        }
+        .diferenciais-single p{
+            color: grey;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        @media screen and (max-width:768px){
+            .diferenciais-single{
+                width: 100%;
+                margin-bottom: 20px;
+                }
+            .conteudo-sobre p{
+                flex-wrap: wrap;
+                width: 100%;
+                margin: 20px 20px ;
+            }
+        }
+        /*
+        Section sobre
+        */
+        section.sobre{
+            padding: 80px 0;
+        }
+        
+
+        .chamada-sobre{
+            width: 100%;
+            text-align: center;
+        }
+        .chamada-sobre h2{
+            color:rgb(18, 102, 228);
+            font-size: 22px;
+            text-transform: uppercase;
+        }
+        .chamada-sobre p{
+            font-size: 14px;
+            color: gray;
+            margin: 10px 0;
+        }
+        .conteudo-sobre{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .conteudo-sobre span{
+            display: inline-block;
+            width: 100%;
+            margin: 10px 5px;
+            
+        }
+        .conteudo-sobre p{
+            margin: 0 10px;
+            color: #444;
+        }
+        .conteudo-sobre i{
+            color:rgb(18, 102, 228);
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><h2>Logo</h2></div>
+            <div class="menu">
+                <a href="#">
+                    link
+                </a>
+                <a href="#">
+                    link
+                </a>
+                <a href="#">
+                    link
+                </a>
+                <a href="#">
+                    link
+                </a>
+                <a class="btn-menu" href="#">
+                    Button
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="center">
+            <div class="main__cta">
+                <h2>Pagina topster</h2>
+                <p>Seja bem vindo a página topster</p>
+                <button>Click Aqui</button>
+            </div>
+
+            <div class="diferenciais">
+                <div class="diferenciais-single">
+                    <i class="fas fa-rocket"></i>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur,</p>
+                </div>
+                <div class="diferenciais-single">
+                    <i class="fas fa-rocket"></i>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aspernatur laboriosam sint officiis id porro ullam dolorem tempora consequatur ratione quasi.</p>
+                </div>
+                <div class="diferenciais-single">
+                    <i class="fas fa-rocket"></i>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem</p>
+                </div>
+                <div class="diferenciais-single">
+                    <i class="fas fa-rocket"></i>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aspernatur laboriosam sint officiis id porro ullam dolorem tempora consequatur ratione quasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre">
+        <div class="center">
+             <div class="chamada-sobre">
+                 <h2>Sobre nóis</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias id eveniet.</p>
+             </div>
+             <div class="conteudo-sobre">
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore quo harum tempora laborum?deleniti sint laboriosam est dolorem commodi.
+                     <br>
+                     <span><i class="far fa-check-circle"></i>Item1</span>
+                     <br>
+                     <span><i class="far fa-check-circle"></i>Item2</span>
+                    </p>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque debitis soluta eos qui veniam cum delectus doloribus accusantium earum unde, deleniti sint laboriosam est dolorem commodi.</p>
+             </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/5a00ae1813.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
