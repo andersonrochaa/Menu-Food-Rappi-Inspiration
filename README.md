@@ -1,7 +1,7 @@
 # Menu-Food-Rappi-Inspiration
 - Responsive Menu
 - Flex-box
-- Css and Html pure
+- Pure Css and Html
 
 ## Desktop 
 ![desktop](./img/captura.PNG)
