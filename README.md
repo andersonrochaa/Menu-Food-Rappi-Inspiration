@@ -3,4 +3,7 @@
 - Flex-box
 - Css and Html pure
 
-![plot](./img/captura.png)
+## Desktop 
+![desktop](./img/captura.PNG)
+## Mobile
+![mobile](./img/captura2.PNG)
